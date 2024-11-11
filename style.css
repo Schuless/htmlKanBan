@@ -1,0 +1,96 @@
+.parent {
+    width: 400px;
+    padding: 20px;
+}
+
+.card {
+    padding-top: 50px;
+    /* border-radius: 10px; */
+    border: 3px solid rgb(255, 255, 255);
+    background: linear-gradient(135deg, #0000 18.75%, #f3f3f3 0 31.25%, #0000 0),
+        repeating-linear-gradient(45deg, #f3f3f3 -6.25% 6.25%, #ffffff 0 18.75%);
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+    background-color: #f0f0f0;
+    width: 100%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+}
+
+.content-box-pendent {
+    background: rgba(22, 202, 247, 0.732);
+    /* border-radius: 10px 100px 10px 10px; */
+    transition: all 0.5s ease-in-out;
+    padding: 50px 25px 50px 100px;
+    transform-style: preserve-3d;
+}
+
+.content-box-pendent .card-title {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+}
+
+.date-box {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 80px;
+    width: 80px;
+    background: white;
+    border: 0.5px solid rgb(100, 100, 100);
+    /* border-radius: 10px; */
+    padding: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+}
+
+.date-box span {
+    display: block;
+    text-align: center;
+}
+
+.date-box .month {
+    color: black(4, 193, 250);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.date-box .date {
+    font-size: 30px;
+    font-weight: 900;
+    color: black(4, 193, 250);
+}
+
+.content-box-realized {
+    background: rgba(0, 255, 13, 0.732);
+    /* border-radius: 10px 100px 10px 10px; */
+    transition: all 0.5s ease-in-out;
+    padding: 50px 25px 50px 100px;
+    transform-style: preserve-3d;
+}
+
+.content-box-realized .card-title {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+}
+
+.coluna {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    /* Permite que cada coluna cresça igualmente */
+    margin: 0 10px;
+    /* Espaçamento entre as colunas */
+}
+
+.tabela {
+    display: flex;
+    padding: 10px;
+}
